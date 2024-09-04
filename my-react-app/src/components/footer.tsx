@@ -1,9 +1,15 @@
-import '../components/footer.css'
+import './footer.css'
 
-export default function footer(){
+function Footer(){
     return(
         <div className='footer'>
-            <div className='container-footer'></div>
+            <div className='container-footer'>
+                <button>FORMAÇÃO ACADÊMICA</button>
+                <button>EXPERIÊNCIA PROFISSIONAL</button>
+                <button>MEUS PROJETOS</button>
+            </div>
         </div>
     )
 }
+
+export default Footer
