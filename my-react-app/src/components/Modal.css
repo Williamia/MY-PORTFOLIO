@@ -1,0 +1,131 @@
+/* Modal.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.747); /* Fundo preto com opacidade */
+    z-index: 1000; /* Certifique-se de que o overlay está acima do conteúdo da página */
+  }
+  
+  .modal-content {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 650px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1001; /* Modal deve estar acima do overlay */
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+
+  .container-modal {
+    text-transform: uppercase;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 140px;
+    background-color: #221F1F;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .circle.etec{
+    padding: 10px;
+    background-color: #f3e6e6;
+  }
+
+  .circle.etec img{
+    width: 200px;
+    height: 80px;
+  }
+
+  .circle.sptech img{
+    width: 150px;
+    height: 100px;
+  }
+  
+  .line {
+    width: 300px;
+    height: 1px;
+    background-color: #221F1F;
+  }
+  
+
+  .content-modal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-modal b{
+    width: 500px;
+    font-size: 20px;
+  }
+
+  .container-modal p{
+    font-size: 15px;
+  }
+
+  .content-modal .circle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 0;
+    width: 200px;
+    background-color: transparent;
+  }
+
+  .content-modal .circle.sptech{
+    margin-top: 30px;
+  }
+
+  .content-modal .line{
+    background-color: transparent;
+  }
+
+  .content-circles{
+    display: flex;
+    align-items: center;
+  }
+
+  .title-modal{
+    font-size: 30px;
+  }
+
+  .icon-form{
+    margin-bottom: 2%;
+  }

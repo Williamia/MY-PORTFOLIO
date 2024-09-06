@@ -23,35 +23,26 @@
     height: 35px;
 }
 
-.primary-color{
-    background-color: #4CAF50;
+.button:hover{
+    background-color: #221F1F;
+    color: white;
+    transition: 0.3s;
 }
 
-.primary-color:hover{
-    background-color: #244e25;
-    color: white;
-    transition: 0.5s;
+
+.primary-color{
+    background-color: #F6F6F6;
 }
 
 .secondary-color{
-    background-color: #176ec4;
-}
-
-.secondary-color:hover{
-    background-color: #05407a;
-    color: white;
-    transition: 0.5s;
+    background-color: #F6F6F6;
 }
 
 .danger-color{
-    background-color: #F1C40F;
+    background-color: #F6F6F6;
 }
 
-.danger-color:hover{
-    background-color: #866d06;
-    color: white;
-    transition: 0.5s;
-}
+
 
 .circle-icon{
     background-color:#221F1F;
